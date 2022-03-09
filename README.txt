@@ -1,3 +1,6 @@
+
+DEPLOYED CONTRACT ADDRESS: 0x8f3e32712be8f1823287017b43101331ffbfb440
+
 REMIX EXAMPLE PROJECT
 
 Remix example project is present when Remix loads for the very first time or there are no files existing in the File Explorer. 
