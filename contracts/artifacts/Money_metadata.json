@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_money",
+						"type": "string"
+					}
+				],
+				"name": "setMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewMoney",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/money.sol": "Money"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/money.sol": {
+			"keccak256": "0x44bc991442fb4449826c99e300fbfaa37780ed86ef67442854e2bab5a5a9a5fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a174bb0e15957d26ea1a2aeb0af4dc4af3b96ae9c3debc1daa5b10d9c1392341",
+				"dweb:/ipfs/QmckN8DETQB48RnQvEdbRdW27ta6FwS7Ki35VvwNgqrXYs"
+			]
+		}
+	},
+	"version": 1
+}
